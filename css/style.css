@@ -1,1 +1,126 @@
-/* Denna fil skall innehålla din CSS kod */
+body {
+	margin: auto;
+}
+
+#wrapper {
+	background-color: #f6efe8;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 150%;
+	display: grid;
+	grid-template-areas:
+		"hd"
+		"nv"
+		"ti"
+		"mn"
+		"ft";
+	grid-template-rows: 2fr 1fr 3fr 6fr 2fr;
+}
+
+header {
+	grid-area: hd;
+	background-color: #a5b58d;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav {
+	grid-area: nv;
+	background-color: #a5b58d;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	border: solid;
+	border-radius: 1vh;
+	border-width: 0.3vh;
+	padding: 1vh;
+	transition: background-color 0.5s;
+}
+
+nav ul li:hover {
+	background-color: #b58b63;
+}
+
+nav ul li a {
+	font-size: 150%;
+	text-decoration: none;
+	color: black;
+	transition: color 0.5s;
+}
+
+nav ul li:hover a {
+	color: #f6efe8;
+}
+
+#title {
+	grid-area: ti;
+}
+
+#title {
+	margin: auto;
+}
+
+main {
+	grid-area: mn;
+	display: grid;
+	grid-template-areas:
+		"sc1 as1"
+		"sc2 as2";
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+aside#open-hours ol li {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+footer {
+	grid-area: ft;
+	background-color: #a5b58d;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 1rem;
+}
+
+footer section#contact-info {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+footer section#social-media {
+	display: flex;
+	justify-content: center;
+	gap: 5%;
+}
+
+aside#open-hours ol {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+button {
+	padding: 0;
+	border: none;
+	background: none;
+}

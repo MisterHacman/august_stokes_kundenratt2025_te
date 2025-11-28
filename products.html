@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/products.css">
+	<title>Meny</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Kafé</h1>
+			<img src="img/icon.png" alt="kaffekoppikon">
+			<h1>Solglimt</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="products.html">Meny</a></li>
+				<li><a href="index.html">Startsida</a></li>
+				<li><a href="about.html">Om oss</a></li>
+			</ul>
+		</nav>
+		<div id="title">
+			<h1>Meny</h1>
+		</div>
+		<main>
+			<section id="view-opts">
+				<ul>
+					<li id="whole-menu">
+						<button onclick="show_menu()">
+							<span class="original">Hela menyn</span><span class="back">Tillbaka</span>
+						</button>
+					</li>
+					<li id="catering">
+						<button onclick="catering()">
+							<span class="original">Beställ catering</span><span class="back">Tillbaka</span>
+						</button>
+					</li>
+				</ul>
+			</section>
+			<section id="allergy-icons">
+				<li>
+					<div id="gluten"></div><span>glutenfri</span>
+				</li>
+				<li>
+					<div id="lactose"></div><span>laktosfri</span>
+				</li>
+				<li>
+					<div id="vegan"></div><span>vegansk</span>
+				</li>
+			</section>
+		</main>
+		<footer>
+			<h3>Kafé Solglimt</h3>
+			<section id="contact-info">
+				<span>Rosenlundsgatan 5</span>
+				<span>41120 Göteborg</span>
+				<span>031 013 37 42</span>
+				<span>info@kafesolglimt.se</span>
+			</section>
+			<section id="social-media">
+				<a href="https://facebook.com/solglimtkafe"><img src="img/fb.png" alt="facebook"></a>
+				<a href="https://instagram.com/kafesolglimt"><img src="img/insta.png" alt="instagram"></a>
+			</section>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

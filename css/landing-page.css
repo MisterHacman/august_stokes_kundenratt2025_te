@@ -1,0 +1,20 @@
+main section#info-text {
+	grid-area: sc1;
+}
+
+main section#info-text p {
+	padding: 5vh;
+	text-align: center;
+}
+
+main section#inside {
+	grid-area: sc2;
+}
+
+main aside#cinnamon-bun {
+	grid-area: as1;
+}
+
+main aside#open-hours {
+	grid-area: as2;
+}
