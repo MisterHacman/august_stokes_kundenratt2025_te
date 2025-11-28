@@ -91,3 +91,13 @@ main section#allergy-icons li div#lactose {
 main section#allergy-icons li div#vegan {
 	background-color: #a5b58d;
 }
+
+main section#main {
+	position: relative;
+}
+
+main section#main article {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
