@@ -27,35 +27,114 @@
 			<h1>Meny</h1>
 		</div>
 		<main>
-			<section id="view-opts">
-				<ul>
-					<li id="whole-menu">
-						<button onclick="show_menu()">
-							<span class="original">Hela menyn</span><span class="back">Tillbaka</span>
-						</button>
-					</li>
-					<li id="catering">
-						<button onclick="catering()">
-							<span class="original">Beställ catering</span><span class="back">Tillbaka</span>
-						</button>
-					</li>
-				</ul>
-			</section>
-			<section id="allergy-icons">
+			<ul id="view-opts">
+				<li id="whole-menu">
+					<button onclick="show_menu()">
+						<span class="original">Hela menyn</span><span class="back">Tillbaka</span>
+					</button>
+				</li>
+				<li id="catering">
+					<button onclick="catering()">
+						<span class="original">Beställ catering</span><span class="back">Tillbaka</span>
+					</button>
+				</li>
+			</ul>
+			<ul id="allergy-icons">
 				<li>
-					<div id="gluten"></div><span>glutenfri</span>
+					<div class="allergy gluten"></div><span>glutenfri</span>
 				</li>
 				<li>
-					<div id="lactose"></div><span>laktosfri</span>
+					<div class="allergy lactose"></div><span>laktosfri</span>
 				</li>
 				<li>
-					<div id="vegan"></div><span>vegansk</span>
+					<div class="allergy vegan"></div><span>vegansk</span>
 				</li>
-			</section>
+			</ul>
 			<section id="main">
-				<article id="products"></article>
-				<article id="whole-menu-text"></article>
-				<article id="catering"></article>
+				<article id="products">
+					<ul>
+						<li id="lussekatt">
+							<div class="allergy lactose"></div>
+						</li>
+						<li id="saffranskladdkaka">
+						</li>
+						<li id="ischoklad">
+							<div class="allergy gluten"></div>
+						</li>
+						<li id="vortbrod">
+							<div class="allergy lactose"></div>
+						</li>
+						<li id="paj">
+						</li>
+						<li id="linssoppa">
+							<div class="allergy gluten"></div>
+							<div class="allergy lactose"></div>
+							<div class="allergy vegan"></div>
+						</li>
+						<li id="räkmacka">
+						</li>
+						<li id="chiapudding">
+							<div class="allergy gluten"></div>
+							<div class="allergy lactose"></div>
+							<div class="allergy vegan"></div>
+						</li>
+						<li id="smoothie">
+							<div class="allergy gluten"></div>
+						</li>
+						<li id="cappuccino">
+							<div class="allergy gluten"></div>
+						</li>
+						<li id="varmchoklad">
+							<div class="allergy gluten"></div>
+						</li>
+						<li id="chai">
+							<div class="allergy gluten"></div>
+							<div class="allergy lactose"></div>
+							<div class="allergy vegan"></div>
+						</li>
+					</ul>
+				</article>
+				<article id="whole-menu-text">
+					<section>
+						<h3>Fika</h3>
+						<ul>
+							<li><span>Kanelbulle</span></li>
+							<li><span>Chokladboll</span></li>
+							<li><span>Dammsugare</span></li>
+							<li><span>Morotskaka</span></li>
+							<li><span>Blåbärspaj</span></li>
+							<li><span>Cannoli</span></li>
+						</ul>
+					</section>
+					<section>
+						<h3>Säsongsfika</h3>
+						<ul>
+							<li><span>Lussekatt</span></li>
+							<li><span>6st Pepparkakor</span></li>
+							<li><span>Lebkuchen</span></li>
+							<li><span>Saffranskladdkaka</span></li>
+						</ul>
+					</section>
+					<section>
+						<h3>Varma drycker</h3>
+						<ul>
+							<li><span>Cappucino</span></li>
+							<li><span>Kaffe latte</span></li>
+							<li><span>Varm choklad</span></li>
+							<li><span>Chai</span></li>
+						</ul>
+					</section>
+					<section>
+						<h3>Kalla drycker</h3>
+						<ul>
+							<li><span>Smoothie</span></li>
+							<li><span>Islatte</span></li>
+						</ul>
+					</section>
+				</article>
+				<article id="catering">
+					<h1>031 013 37 42</h1>
+				</article>
 			</section>
 		</main>
 		<footer>

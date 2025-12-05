@@ -49,9 +49,9 @@ nav ul li:hover {
 }
 
 nav ul li a {
+	color: black;
 	font-size: 150%;
 	text-decoration: none;
-	color: black;
 	transition: color 0.5s;
 }
 
@@ -80,8 +80,8 @@ main {
 aside#open-hours ol li {
 	display: flex;
 	justify-content: space-between;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 30%;
+	padding-right: 30%;
 }
 
 footer {
