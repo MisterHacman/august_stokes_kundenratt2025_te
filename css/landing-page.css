@@ -7,12 +7,18 @@ main section#info-text p {
 	text-align: center;
 }
 
-main section#inside {
+main section#outside {
 	grid-area: sc2;
 }
 
 main aside#cinnamon-bun {
 	grid-area: as1;
+	display: flex;
+}
+
+main aside#cinnamon-bun img {
+	width: 50%;
+	margin: auto;
 }
 
 main aside#open-hours {

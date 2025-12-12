@@ -24,6 +24,10 @@ header {
 	align-items: center;
 }
 
+header img {
+	width: 10vw;
+}
+
 nav {
 	grid-area: nv;
 	background-color: #a5b58d;
@@ -61,10 +65,12 @@ nav ul li:hover a {
 
 #title {
 	grid-area: ti;
+	display: flex;
+	justify-content: center;
 }
 
-#title {
-	margin: auto;
+#title img {
+	width: 98.8vw;
 }
 
 main {
