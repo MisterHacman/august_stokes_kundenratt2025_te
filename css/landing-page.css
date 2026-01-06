@@ -6,11 +6,7 @@
 
 main section#info-text {
 	grid-area: sc1;
-}
-
-main section#info-text p {
-	padding: 5vh;
-	text-align: center;
+	margin: auto;
 }
 
 main section#outside {

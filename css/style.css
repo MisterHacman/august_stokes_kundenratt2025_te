@@ -146,6 +146,15 @@ h3 {
 	text-align: center;
 }
 
+p {
+	font-size: 120%;
+	line-height: 200%;
+}
+
+span {
+	line-height: 200%;
+}
+
 button {
 	padding: 0;
 	border: none;

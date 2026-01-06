@@ -1,3 +1,7 @@
+main section#about-text {
+	margin: auto;
+}
+
 main section#contact-form {
 	display: flex;
 	justify-content: center;
