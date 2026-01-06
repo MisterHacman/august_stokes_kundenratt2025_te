@@ -1,3 +1,9 @@
+#title {
+	background-image: url("../img/inside.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 main section#info-text {
 	grid-area: sc1;
 }
@@ -9,6 +15,10 @@ main section#info-text p {
 
 main section#outside {
 	grid-area: sc2;
+	border-radius: 0rem 1rem 0rem 0rem;
+	background-image: url("../img/outside.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 main aside#cinnamon-bun {

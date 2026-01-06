@@ -24,15 +24,13 @@
                 <li><a href="about.html">Om oss</a></li>
             </ul>
         </nav>
-        <div id="title"><img src="img/inside.jpg" alt="insidan"></div>
+        <div id="title"></div>
         <main>
             <section id="info-text">
                 <h3>Rosenlunds myshörna</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, similique?</p>
             </section>
-            <section id="outside">
-                <img src="img/outside.jpg" alt="utsidan">
-            </section>
+            <section id="outside"></section>
             <aside id="cinnamon-bun">
                 <img src="img/cinnamon-bun.png" alt="kanelbulle">
             </aside>
@@ -51,14 +49,25 @@
         <footer>
             <h3>Kafé Solglimt</h3>
             <section id="contact-info">
-                <span>Rosenlundsgatan 5</span>
+                <span><a
+                        href="https://www.google.com/maps/place/Rosenlundsgatan+5,+411+20+G%C3%B6teborg/@57.7010615,11.9575948,17z/data=!3m1!4b1!4m6!3m5!1s0x464ff3685539cfc9:0x71070913424fa0ea!8m2!3d57.7010587!4d11.9601697!16s%2Fg%2F11q2ncf3z8?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D">Rosenlundsgatan
+                        5</a></span>
                 <span>41120 Göteborg</span>
                 <span>031 013 37 42</span>
-                <span>info@kafesolglimt.se</span>
+                <span><a href="mailto:info@kafesolglimt.se">info@kafesolglimt.se</a></span>
             </section>
             <section id="social-media">
-                <a href="https://facebook.com/solglimtkafe"><img src="img/fb.png" alt="facebook"></a>
-                <a href="https://instagram.com/kafesolglimt"><img src="img/insta.png" alt="instagram"></a>
+                <a href="https://facebook.com/solglimtkafe">
+                    <picture>
+                        <source media="(min-width: 64px)" srcset="img/fb256px.png">
+                        <img src="img/fb64px.png" alt="facebook">
+                    </picture>
+                </a>
+                <a href="https://instagram.com/kafesolglimt">
+                    <picture>
+                        <source media="(min-width: 64px)" srcset="img/insta256px.png">
+                        <img src="img/insta64px.png" alt="facebook">
+                    </picture>
             </section>
         </footer>
     </div>

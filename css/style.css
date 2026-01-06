@@ -5,7 +5,6 @@ body {
 #wrapper {
 	background-color: #f6efe8;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 150%;
 	display: grid;
 	grid-template-areas:
 		"hd"
@@ -13,7 +12,7 @@ body {
 		"ti"
 		"mn"
 		"ft";
-	grid-template-rows: 2fr 1fr 3fr 6fr 2fr;
+	grid-template-rows: 2fr 1fr 2fr 4fr 2fr;
 }
 
 header {
@@ -67,10 +66,7 @@ nav ul li:hover a {
 	grid-area: ti;
 	display: flex;
 	justify-content: center;
-}
-
-#title img {
-	width: 98.8vw;
+	align-items: center;
 }
 
 main {
@@ -85,7 +81,9 @@ main {
 
 aside#open-hours ol li {
 	display: flex;
+	/*space-between gör att vänstertexten ligger intill vänster kant och högerkanten intill höger kant*/
 	justify-content: space-between;
+	/*paddingen gör att vänstertexten och högertexten ligger intill varandra*/
 	padding-left: 30%;
 	padding-right: 30%;
 }
@@ -99,15 +97,38 @@ footer {
 	gap: 1rem;
 }
 
+footer section span a {
+	text-decoration: none;
+	color: black;
+}
+
 footer section#contact-info {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
+	gap: 2%;
 }
 
 footer section#social-media {
 	display: flex;
 	justify-content: center;
-	gap: 5%;
+	align-items: center;
+	gap: 2%;
+	/*Gör att sektionen är tillräckligt stor så kontakt sektionen inte puttas undan vid hovring vid loggorna*/
+	height: 20%;
+}
+
+footer section#social-media a img {
+	width: 2vw;
+}
+
+footer section a {
+	transition: all 0.1s;
+}
+
+footer section#social-media a:hover {
+	padding: 0.2rem;
+	border: 0.2rem solid black;
+	border-radius: 0.4rem;
 }
 
 aside#open-hours ol {
