@@ -55,6 +55,7 @@ main ul#view-opts li button span.back {
 }
 
 main ul#allergy-icons {
+	padding: 0;
 	background-color: #b58b63;
 	border-radius: 1vh;
 	display: flex;
@@ -65,7 +66,8 @@ main ul#allergy-icons {
 main ul#allergy-icons li {
 	display: flex;
 	justify-content: center;
-	gap: 2vh;
+	align-items: center;
+	gap: 10%;
 }
 
 div.allergy {
@@ -112,27 +114,79 @@ main section#main article#products ul {
 	display: flex;
 	padding-left: 0;
 	flex-wrap: wrap;
-	gap: 1vh;
-	justify-items: center;
+	justify-content: space-between;
+	align-content: space-around;
 }
 
 main section#main article#products ul li {
-	flex: 0 0 calc((100% - (6vh - 1vh)) / 6);
+	width: 16%;
+	height: 48%;
 	list-style: none;
 	display: flex;
 	justify-content: center;
 	gap: 1vh;
 	background-color: #b58b63;
 	border-radius: 1vh;
+	border: solid #b58b63;
+	background-size: cover;
 }
 
 main section#main article#products ul li div.allergy {
 	margin-top: 1vh;
 }
 
+#vortbrod {
+	background-image: url("../img/products/vortbrod.jpg");
+}
+
+#rakmacka {
+	background-image: url("../img/products/rakmacka.jpg");
+}
+
+#chai {
+	background-image: url("../img/products/chai.jpg");
+}
+
+#chiapudding {
+	background-image: url("../img/products/chiapudding.jpg");
+}
+
+#cappuccino {
+	background-image: url("../img/products/cappuccino.jpg");
+}
+
+#blabarspaj {
+	background-image: url("../img/products/blabarspaj.jpg");
+}
+
+#linssoppa {
+	background-image: url("../img/products/linssoppa.jpg");
+}
+
+#smoothie {
+	background-image: url("../img/products/smoothie.jpg");
+}
+
+#paj {
+	background-image: url("../img/products/paj.jpg");
+}
+
+#saffranskladdkaka {
+	background-image: url("../img/products/saffranskladdkaka.jpg");
+}
+
+#varmchoklad {
+	background-image: url("../img/products/varmchoklad.jpg");
+}
+
+#lussekatt {
+	background-image: url("../img/products/lussekatt.jpg");
+}
+
 main section#main article#whole-menu-text {
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 main section#main article#whole-menu-text section {
@@ -140,18 +194,25 @@ main section#main article#whole-menu-text section {
 	margin-left: 0;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 main section#main article#whole-menu-text section ul {
-	margin: 0;
-	padding: 0;
+	width: 20vw;
 	list-style: none;
+	margin: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-left: solid #b58b63;
+	border-right: solid #b58b63;
 }
 
-main section#main article#whole-menu-text section ul li span.price {
-	align-self: flex-end;
+main section#main article#whole-menu-text section ul li {
+	display: flex;
+	justify-content: space-between;
 }
 
 main section#main article#catering h1 {
 	font-size: 800%;
+	cursor: default;
 }
