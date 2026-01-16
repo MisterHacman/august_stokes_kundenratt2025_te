@@ -7,7 +7,7 @@ function show_menu() {
 
 	let products = document.querySelector("main section#main article#products");
 	let menu = document.querySelector("main section#main article#whole-menu-text");
-	let catering = document.querySelector("main section#main article#catering");
+	let catering = document.querySelector("main section#main article#catering-text");
 
 	if (!whole_menu_shown) {
 		origin_text.style.opacity = 0;
@@ -37,7 +37,7 @@ function catering() {
 	let back_text = document.querySelector("main ul#view-opts li#catering button span.back")
 
 	let products = document.querySelector("main section#main article#products");
-	let catering = document.querySelector("main section#main article#catering");
+	let catering = document.querySelector("main section#main article#catering-text");
 	let menu = document.querySelector("main section#main article#whole-menu-text");
 	if (!catering_shown) {
 		origin_text.style.opacity = 0;

@@ -45,7 +45,7 @@ main ul#view-opts li:hover button {
 
 main ul#view-opts li button span {
 	opacity: 1;
-	transition: opacity 0.5;
+	transition: opacity 0.5s;
 }
 
 main ul#view-opts li button span.back {
@@ -207,12 +207,16 @@ main section#main article#whole-menu-text section ul {
 	border-right: solid #b58b63;
 }
 
+main section#main article#whole-menu-text section h2 {
+	font-size: 100%;
+}
+
 main section#main article#whole-menu-text section ul li {
 	display: flex;
 	justify-content: space-between;
 }
 
-main section#main article#catering h1 {
+main section#main article#catering-text h1 {
 	font-size: 800%;
 	cursor: default;
 }
